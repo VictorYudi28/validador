@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer components{
+
+    .inputComponente{
+        @apply bg-gray-200 p-1 py-3 pl-3;
+    }
+
+    .erroComponente{
+        @apply bg-red-400 text-white pl-3 rounded-b-md;
+    }
+
+    .botaoComponente{
+        @apply font-bold text-white py-2 w-full bg-gradient-to-r from-indigo-600 to-sky-500 hover:from-indigo-700 hover:to-sky-600 transition ease-in-out rounded-lg uppercase px-2 cursor-pointer;
+    }
+
+}
+
+input{
+    outline: none;
+}
